@@ -1,5 +1,5 @@
 [Unit]
-Description=DumbDo: todo list
+Description=DumbPad: Simple notepad
 After=network.target
 
 [Service]
