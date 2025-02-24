@@ -30,6 +30,7 @@ A stupid simple, no auth (unless you want it!), modern notepad application with 
 - File-based storage
 - Data persistence across updates
 
+
 **Paketatutako bertsioa:** 1.0.0~ynh1
 
 ## Pantaila-argazkiak
