@@ -3,58 +3,58 @@ NB: Deze README is automatisch gegenereerd door <https://github.com/YunoHost/app
 Hij mag NIET handmatig aangepast worden.
 -->
 
-# DumbDo voor Yunohost
+# DumbPad voor Yunohost
 
-[![Integratieniveau](https://apps.yunohost.org/badge/integration/dumbdo)](https://ci-apps.yunohost.org/ci/apps/dumbdo/)
-![Mate van functioneren](https://apps.yunohost.org/badge/state/dumbdo)
-![Onderhoudsstatus](https://apps.yunohost.org/badge/maintained/dumbdo)
+[![Integratieniveau](https://apps.yunohost.org/badge/integration/dumbpad)](https://ci-apps.yunohost.org/ci/apps/dumbpad/)
+![Mate van functioneren](https://apps.yunohost.org/badge/state/dumbpad)
+![Onderhoudsstatus](https://apps.yunohost.org/badge/maintained/dumbpad)
 
-[![DumbDo met Yunohost installeren](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=dumbdo)
+[![DumbPad met Yunohost installeren](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=dumbpad)
 
 *[Deze README in een andere taal lezen.](./ALL_README.md)*
 
-> *Met dit pakket kun je DumbDo snel en eenvoudig op een YunoHost-server installeren.*  
+> *Met dit pakket kun je DumbPad snel en eenvoudig op een YunoHost-server installeren.*  
 > *Als je nog geen YunoHost hebt, lees dan [de installatiehandleiding](https://yunohost.org/install), om te zien hoe je 'm installeert.*
 
 ## Overzicht
 
-A stupidly simple todo list application that just works. No complex database, no unnecessary features - just todos.
+A stupid simple, no auth (unless you want it!), modern notepad application with auto-save functionality and dark mode support.
 
 ### Features
 
-    ✨ Clean, minimal interface
-    🌓 Dark/Light mode with system preference detection
-    💾 File-based storage - todos persist between sessions
-    📱 Fully responsive design
-    🚀 Fast and lightweight
-    🔒 PIN protection (4-10 digits if enabled)
-
-
+    Simple, clean interface
+    Auto-saving
+    Dark mode support
+    Responsive design
+    Docker support
+    Optional PIN protection (4-10 digits)
+    File-based storage
+    Data persistence across updates
 
 
 **Geleverde versie:** 1.0.0~ynh1
 
 ## Schermafdrukken
 
-![Schermafdrukken van DumbDo](./doc/screenshots/screeshot.png)
+![Schermafdrukken van DumbPad](./doc/screenshots/screenshot.png)
 
 ## Documentatie en bronnen
 
 - Officiele website van de app: <https://www.dumbware.io/>
-- Upstream app codedepot: <https://github.com/DumbWareio/DumbDo>
-- YunoHost-store: <https://apps.yunohost.org/app/dumbdo>
-- Meld een bug: <https://github.com/YunoHost-Apps/dumbdo_ynh/issues>
+- Upstream app codedepot: <https://github.com/DumbWareio/DumbPad>
+- YunoHost-store: <https://apps.yunohost.org/app/dumbpad>
+- Meld een bug: <https://github.com/YunoHost-Apps/dumbpad_ynh/issues>
 
 ## Ontwikkelaarsinformatie
 
-Stuur je pull request alsjeblieft naar de [`testing`-branch](https://github.com/YunoHost-Apps/dumbdo_ynh/tree/testing).
+Stuur je pull request alsjeblieft naar de [`testing`-branch](https://github.com/YunoHost-Apps/dumbpad_ynh/tree/testing).
 
 Om de `testing`-branch uit te proberen, ga als volgt te werk:
 
 ```bash
-sudo yunohost app install https://github.com/YunoHost-Apps/dumbdo_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/dumbpad_ynh/tree/testing --debug
 of
-sudo yunohost app upgrade dumbdo -u https://github.com/YunoHost-Apps/dumbdo_ynh/tree/testing --debug
+sudo yunohost app upgrade dumbpad -u https://github.com/YunoHost-Apps/dumbpad_ynh/tree/testing --debug
 ```
 
 **Verdere informatie over app-packaging:** <https://yunohost.org/packaging_apps>
