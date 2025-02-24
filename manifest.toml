@@ -33,10 +33,6 @@ ram.runtime = "50M"
     [install.domain]
     type = "domain"
 
-    #[install.path]
-    #type = "path"
-    #default = "/example"
-
     [install.init_main_permission]
     type = "group"
     default = "visitors"
@@ -48,7 +44,6 @@ ram.runtime = "50M"
     [resources.sources.main]
     url = "https://github.com/DumbWareio/DumbPad/archive/9bb8f5862b0e881112eb93aa9f7349bfc6f87e17.tar.gz"
     sha256 = "ba5932d7012159f62368f0a6f403d0b472eba7d85cebde1f42901eed584aa038"
-
     autoupdate.strategy = "latest_github_commit"
 
     [resources.system_user]
