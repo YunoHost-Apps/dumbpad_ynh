@@ -22,14 +22,13 @@ Une application de bloc-notes moderne, simple, sans authentification (sauf si vo
 
 ### Caractéristiques
 
-    Interface simple et propre
-    Sauvegarde automatique
-    Support du mode sombre
-    Design réactif
-    Prise en charge de Docker
-    Protection par code PIN en option (4 à 10 chiffres)
-    Stockage sur fichier
-    Persistance des données entre les mises à jour
+- Interface simple et propre
+- Sauvegarde automatique
+- Support du mode sombre
+- Design réactif
+- Protection par code PIN en option (4 à 10 chiffres)
+- Stockage sur fichier
+- Persistance des données entre les mises à jour
     
 
 **Version incluse :** 1.0.0~ynh1

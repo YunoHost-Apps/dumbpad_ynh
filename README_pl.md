@@ -22,14 +22,13 @@ A stupid simple, no auth (unless you want it!), modern notepad application with 
 
 ### Features
 
-    Simple, clean interface
-    Auto-saving
-    Dark mode support
-    Responsive design
-    Docker support
-    Optional PIN protection (4-10 digits)
-    File-based storage
-    Data persistence across updates
+- Simple, clean interface
+- Auto-saving
+- Dark mode support
+- Responsive design
+- Optional PIN protection (4-10 digits)
+- File-based storage
+- Data persistence across updates
 
 
 **Dostarczona wersja:** 1.0.0~ynh1
