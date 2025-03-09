@@ -31,7 +31,7 @@ Une application de bloc-notes moderne, simple, sans authentification (sauf si vo
 - Persistance des données entre les mises à jour
     
 
-**Version incluse :** 1.0.0~ynh2
+**Version incluse :** 2025.03.07~ynh1
 
 ## Captures d’écran
 

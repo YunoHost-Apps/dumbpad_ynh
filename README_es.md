@@ -31,7 +31,7 @@ A stupid simple, no auth (unless you want it!), modern notepad application with 
 - Data persistence across updates
 
 
-**Versión actual:** 1.0.0~ynh2
+**Versión actual:** 2025.03.07~ynh1
 
 ## Capturas
 
