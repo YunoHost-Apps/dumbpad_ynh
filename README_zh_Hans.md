@@ -31,7 +31,7 @@ A stupid simple, no auth (unless you want it!), modern notepad application with 
 - Data persistence across updates
 
 
-**分发版本：** 2025.03.07~ynh1
+**分发版本：** 2025.03.14~ynh1
 
 ## 截图
 
