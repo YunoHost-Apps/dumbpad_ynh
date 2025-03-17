@@ -31,7 +31,7 @@ A stupid simple, no auth (unless you want it!), modern notepad application with 
 - Data persistence across updates
 
 
-**Paketatutako bertsioa:** 2025.03.07~ynh1
+**Paketatutako bertsioa:** 2025.03.14~ynh1
 
 ## Pantaila-argazkiak
 
