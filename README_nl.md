@@ -31,7 +31,7 @@ A stupid simple, no auth (unless you want it!), modern notepad application with 
 - Data persistence across updates
 
 
-**Geleverde versie:** 2025.03.07~ynh1
+**Geleverde versie:** 2025.03.14~ynh1
 
 ## Schermafdrukken
 
