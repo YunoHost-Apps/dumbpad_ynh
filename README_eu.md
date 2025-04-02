@@ -31,7 +31,7 @@ A stupid simple, no auth (unless you want it!), modern notepad application with 
 - Data persistence across updates
 
 
-**Paketatutako bertsioa:** 2025.03.14~ynh1
+**Paketatutako bertsioa:** 2025.03.26~ynh1
 
 ## Pantaila-argazkiak
 
@@ -48,7 +48,7 @@ A stupid simple, no auth (unless you want it!), modern notepad application with 
 
 Bidali `pull request`a [`testing` abarrera](https://github.com/YunoHost-Apps/dumbpad_ynh/tree/testing).
 
-`testing` abarra probatzeko, ondorengoa egin:
+`testing` abarra probatzeko, honakoa egin:
 
 ```bash
 sudo yunohost app install https://github.com/YunoHost-Apps/dumbpad_ynh/tree/testing --debug

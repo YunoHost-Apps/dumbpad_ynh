@@ -3,7 +3,7 @@ Este archivo README esta generado automaticamente<https://github.com/YunoHost/ap
 No se debe editar a mano.
 -->
 
-# DumbPad para Yunohost
+# DumbPad para YunoHost
 
 [![Nivel de integración](https://apps.yunohost.org/badge/integration/dumbpad)](https://ci-apps.yunohost.org/ci/apps/dumbpad/)
 ![Estado funcional](https://apps.yunohost.org/badge/state/dumbpad)
@@ -31,7 +31,7 @@ A stupid simple, no auth (unless you want it!), modern notepad application with 
 - Data persistence across updates
 
 
-**Versión actual:** 2025.03.14~ynh1
+**Versión actual:** 2025.03.26~ynh1
 
 ## Capturas
 
