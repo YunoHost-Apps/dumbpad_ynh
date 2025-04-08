@@ -1,5 +1,9 @@
 #!/bin/bash
 
+#=================================================
+# IMPORT GENERIC HELPERS
+#=================================================
+
 source _common.sh
 source /usr/share/yunohost/helpers
 
@@ -11,6 +15,14 @@ ynh_script_progression "Stopping $app's systemd service..."
 ynh_systemctl --service="$app" --action="stop" --log_path="systemd"
 
 #=================================================
+# DOWNLOAD, CHECK AND UNPACK SOURCE
+#=================================================
+ynh_script_progression "Upgrading source files..."
+
+# Download, check integrity, uncompress and patch the source from manifest.toml
+ynh_setup_source --dest_dir="$install_dir" --full_replace --keep="data .env"
+
+#=================================================
 # INSTALL DEPENDENCIES
 #=================================================
 ynh_script_progression "Installing dependencies..."
@@ -18,11 +30,14 @@ ynh_script_progression "Installing dependencies..."
 ynh_nodejs_install
 
 #=================================================
-# DOWNLOAD, CHECK AND UNPACK SOURCE
+# REAPPLY SYSTEM CONFIGURATION
 #=================================================
-ynh_script_progression "Upgrading source files..."
+ynh_script_progression "Upgrading system configurations related to $app..."
 
-ynh_setup_source --dest_dir="$install_dir" --full_replace --keep="data .env"
+ynh_config_add_nginx
+
+ynh_config_add_systemd
+yunohost service add "$app" --description="Dumb pad" --log="/var/log/$app/$app.log"
 
 #=================================================
 # INSTALL DODOC
@@ -32,17 +47,6 @@ ynh_script_progression "Installing $app..."
 pushd "$install_dir"
  	ynh_hide_warnings ynh_exec_as_app npm install
 popd
-
-#=================================================
-# REAPPLY SYSTEM CONFIGURATIONS
-#=================================================
-ynh_script_progression "Upgrading system configurations related to $app..."
-
-ynh_config_add_nginx
-
-ynh_config_add_systemd
-
-yunohost service add "$app" --description="Dumb pad" --log="/var/log/$app/$app.log"
 
 #=================================================
 # START SYSTEMD SERVICE
