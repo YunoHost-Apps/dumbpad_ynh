@@ -7,13 +7,14 @@ name = "DumbPad"
 description.en = "Simple notepad application"
 description.fr = "Application simple de bloc-notes"
 
-version = "2025.04.08~ynh1"
+version = "2025.05.16~ynh1"
 
 maintainers = ["eric_G"]
 
 [upstream]
 license = "GPL-3.0"
 website = "https://www.dumbware.io/"
+admindoc = "https://www.dumbware.io/DumbPad"
 code = "https://github.com/DumbWareio/DumbPad"
 fund = "https://buymeacoffee.com/dumbware"
 
@@ -38,13 +39,18 @@ ram.runtime = "70M"
     type = "group"
     default = "visitors"
 
+    [install.pin]
+    ask.en = "Choose an optional PIN protection (4-10 digits)"
+    ask.fr = "Choisissez la protection par code PIN en option (4 à 10 chiffres)"
+    type = "number"
+    
 [resources]
 
     [resources.sources]
 
     [resources.sources.main]
-    url = "https://github.com/DumbWareio/DumbPad/archive/a8568174484ec229681d81d21d903f305409041a.tar.gz"
-    sha256 = "746582ea97e8c4368386f74ff6cb58710a3f74cd65a92acaf89754a41309031a"
+    url = "https://github.com/DumbWareio/DumbPad/archive/3cf6291e76c3c467cae0047decccfc65f6b0c80e.tar.gz"
+    sha256 = "9d88003f757ad3c7615c1c56972c10fab3618f61e5241dccbc34e10874977819"
     autoupdate.upstream = "https://github.com/DumbWareio/DumbPad"
     autoupdate.strategy = "latest_github_commit"
 
