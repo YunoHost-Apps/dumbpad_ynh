@@ -7,7 +7,7 @@ name = "DumbPad"
 description.en = "Simple notepad application"
 description.fr = "Application simple de bloc-notes"
 
-version = "2025.06.04~ynh1"
+version = "2025.06.04~ynh2"
 
 maintainers = ["eric_G"]
 
@@ -38,11 +38,6 @@ ram.runtime = "70M"
     [install.init_main_permission]
     type = "group"
     default = "visitors"
-
-    [install.pin]
-    ask.en = "Choose an optional PIN protection (4-10 digits)"
-    ask.fr = "Choisissez la protection par code PIN en option (4 à 10 chiffres)"
-    type = "number"
     
 [resources]
 
