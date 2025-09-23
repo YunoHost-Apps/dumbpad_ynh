@@ -7,7 +7,7 @@ name = "DumbPad"
 description.en = "Simple notepad application"
 description.fr = "Application simple de bloc-notes"
 
-version = "2025.07.01~ynh1"
+version = "2025.08.31~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -19,7 +19,7 @@ code = "https://github.com/DumbWareio/DumbPad"
 fund = "https://buymeacoffee.com/dumbware"
 
 [integration]
-yunohost = ">= 12.0.9"
+yunohost = ">= 12.1.17"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
@@ -44,8 +44,8 @@ ram.runtime = "70M"
     [resources.sources]
 
     [resources.sources.main]
-    url = "https://github.com/DumbWareio/DumbPad/archive/cf7c785328ca380c6736ce7ad0e01eb58ec291db.tar.gz"
-    sha256 = "0ddab40598b887b9644051155f071262d766f6c9bdd21d3328e0af04f6eda804"
+    url = "https://github.com/DumbWareio/DumbPad/archive/d6889434f0a2b5dd12b0d261e917f6dcf4dd6099.tar.gz"
+    sha256 = "9f3e586c02e69be0fee644c06ce6ec9d39fb1f2902dad0557c0cd201b9e61017"
     autoupdate.upstream = "https://github.com/DumbWareio/DumbPad"
     autoupdate.strategy = "latest_github_commit"
 
@@ -57,3 +57,6 @@ ram.runtime = "70M"
     main.url = "/"
 
     [resources.ports]
+
+    [resources.nodejs]
+    version = "22"
