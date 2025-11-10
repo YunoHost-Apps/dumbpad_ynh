@@ -7,7 +7,7 @@ name = "DumbPad"
 description.en = "Simple notepad application"
 description.fr = "Application simple de bloc-notes"
 
-version = "2025.08.31~ynh1"
+version = "2025.11.04~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -44,8 +44,8 @@ ram.runtime = "70M"
     [resources.sources]
 
     [resources.sources.main]
-    url = "https://github.com/DumbWareio/DumbPad/archive/d6889434f0a2b5dd12b0d261e917f6dcf4dd6099.tar.gz"
-    sha256 = "9f3e586c02e69be0fee644c06ce6ec9d39fb1f2902dad0557c0cd201b9e61017"
+    url = "https://github.com/DumbWareio/DumbPad/archive/4fe8267e63a37719a932d7f61a3a1c1eb6d85a14.tar.gz"
+    sha256 = "75c1da44f2e3edb144219821a691377c85681bb5527272f0c7aef9d16a156a76"
     autoupdate.upstream = "https://github.com/DumbWareio/DumbPad"
     autoupdate.strategy = "latest_github_commit"
 
