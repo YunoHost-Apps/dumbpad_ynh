@@ -13,6 +13,7 @@ services = ["__APP__"]
         ask.en = "PIN protection"
         ask.fr = "Protection par code PIN"
         type = "string"
+        pattern.regexp = '^\d{4,10}$'
         help.en = "Choose an optional PIN protection (4-10 digits)"
         help.fr = "Choisissez la protection par code PIN en option (4 à 10 chiffres)"
         bind = "DUMBPAD_PIN:__INSTALL_DIR__/.env"
